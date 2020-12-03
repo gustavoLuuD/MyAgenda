@@ -20,6 +20,10 @@ header{
 header h1, a{
     color: #FFFFFF;
 }
+header a:hover{
+    transition: 1.5s;;
+    color: #d1c23c;
+}
 .logo-container{
     display: block;
     height: 100%;
@@ -52,11 +56,54 @@ header h1, a{
     display: table-cell;
     vertical-align: middle;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .navigation li{
     display: inline;
+}
+main{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.content-cards{
+    display: inline;
+}
+.card{
+    width: 50%;
+
+    border:2px solid black;
+    border-radius: 5px;
+
+    padding: 20px;
+    margin:10px auto;
+    background-color: rgb(37, 31, 31);
+    color: white;
+}
+.card h2{
+    margin: 0 0 20px 0;
+    
+}
+#coisas-importantes h2{
+    color:#ff006a;
+}
+#agendado h2{
+    color:  #189dbe;
+}
+#fast-todo h2{
+    color:#3dd83d;
+}
+
+.tarefa{
+    padding: 0 10px;
+    border:1px solid rgb(65, 62, 62);
+    border-radius: 3px;
+    margin: 3px auto;
+}
+.data-agendada{
+    color: #189dbe;
+    font-size: 0.7em;
 }
 footer{
     width: 100%;
@@ -70,5 +117,4 @@ footer p{
     font-size: 16px;
     font-weight: 400;
     color:#FFFFFF;
-    vertical-align: center;
 }
